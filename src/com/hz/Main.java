@@ -1,5 +1,6 @@
 package com.hz;
 
+import com.hz.players.BotPlayer;
 import com.hz.players.DummyPlayer;
 import com.hz.players.TicTacToe;
 
@@ -14,7 +15,7 @@ public class Main {
         playerOne.setSymbol(0);
 
         // player 2
-        TicTacToe playerTwo = new DummyPlayer();
+        TicTacToe playerTwo = new BotPlayer();
         playerOne.setSymbol(1);
 
         // Strategy Design Pattern
